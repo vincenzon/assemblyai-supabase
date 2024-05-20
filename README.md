@@ -22,7 +22,7 @@ npx supabase functions new assembly-ai-webhook
 - Create and populate `supabase/functions/assembly-ai-webhook/.env`
 
 ```
-AAI_TRANSCRIPTION_SECRET=<User defined>
+ASSEMBLY_AI_SHARED_SECRET=<User defined>
 ```
 
 - Write the webhook
